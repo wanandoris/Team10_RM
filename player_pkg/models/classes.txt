@@ -1,0 +1,5 @@
+armor_red_1
+armor_red_2
+armor_red_3
+armor_red_4
+armor_red_5

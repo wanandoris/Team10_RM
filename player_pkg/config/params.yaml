@@ -1,0 +1,12 @@
+vision_node:
+  ros__parameters:
+    # ========== 模型相关参数 ==========
+    model_path: "src/player_pkg/models/best.onnx"  # ONNX模型文件路径
+    conf_threshold: 0.5      # 置信度阈值 [0.0-1.0]，高于此值才认为是有效检测
+    nms_threshold: 0.4       # 非极大值抑制阈值 [0.0-1.0]，用于消除重复检测框
+  
+shooter_node:
+  ros__parameters:
+    # ========== 物理参数 ==========
+    bullet_speed: 1.5        # 弹丸初始速度 (m/s)
+    gravity: 9.8             # 重力加速度 (m/s²)

@@ -1,0 +1,15 @@
+# Armor Dataset Configuration
+path: /home/wanan/文档/GitHub/Vision_Arena_2025/Test_ws/src/player_pkg/scripts/armor_yolo_dataset
+train: images/train
+val: images/val
+
+# Number of classes
+nc: 5
+
+# Class names
+names: ['armor_red_1', 'armor_red_2', 'armor_red_3', 'armor_red_4', 'armor_red_5']
+
+# Dataset statistics
+train_count: 519
+val_count: 130
+total_count: 649
